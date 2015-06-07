@@ -1,0 +1,35 @@
+name: OBAMNPC
+main: co.obam.ob1bob69.obamnpc.OBAMNPC
+version: 1.0
+author: ob1bob69
+depend: [OBAMAPI]
+
+
+commands:
+  testitem:
+    description: Says what is in your hand.
+    usage: /<command>
+  npc:
+    description: Spawns an NPC and adds it to the database.
+    usage: /<command>
+  giveStick:
+    description: Gives you a stick for things.
+    usage: /<command>
+  listtest:
+    description: Does stuff with the test list.
+    usage: /<command>
+  listrun:
+    description: Does stuff with the test list.
+    usage: /<command>
+  forceport:
+    description: Forces port loop.
+    usage: /<command>
+  shopMenu:
+    description: Brings up the NPC Shop Menu.
+    usage: /<command>
+  npcSub:
+    description: Runs the subClass.
+    usage: /<command>
+  invtest:
+    description: loops inventory and messages.
+    usage: /<command>
