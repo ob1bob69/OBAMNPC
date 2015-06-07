@@ -130,7 +130,7 @@ public class NPCSub {
 
                                         //remove after debug
 /*										if (entry.getValue().getItemMeta().getDisplayName() == null) {
-											player.sendMessage("Slot " + entry.getKey() + " is " + entry.getValue().getType().name());
+                                            player.sendMessage("Slot " + entry.getKey() + " is " + entry.getValue().getType().name());
 										} else {
 											player.sendMessage("D Slot " + entry.getKey() + " is " + entry.getValue().getItemMeta().getDisplayName());
 										}*/

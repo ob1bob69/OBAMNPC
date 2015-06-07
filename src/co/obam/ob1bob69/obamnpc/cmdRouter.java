@@ -12,7 +12,7 @@ public class cmdRouter {
     public static Plugin plugin;
     public static ConsoleCommandSender console;
 
-    public static void getPlugin(Plugin p){
+    public static void getPlugin(Plugin p) {
         console = p.getServer().getConsoleSender();
     }
 
@@ -26,9 +26,8 @@ public class cmdRouter {
                 NPCSub.executeNPCSub(player, packet);
             } else {
                 player.performCommand("command packet");
+                String poop = "test";
             }
-
-
 
 
         } else {

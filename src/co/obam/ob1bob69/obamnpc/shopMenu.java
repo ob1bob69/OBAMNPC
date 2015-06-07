@@ -29,7 +29,6 @@ public class shopMenu {
         String shopClass = NPCPass[2];
 
 
-
         List<Integer> slot = new ArrayList<Integer>();
         List<Integer> qty = new ArrayList<Integer>();
         List<String> item = new ArrayList<String>();
@@ -76,7 +75,7 @@ public class shopMenu {
                     c++;
                 }
 /*						player.sendMessage(ChatColor.GREEN
-							+ "Counter after loop is  " + ChatColor.WHITE
+                            + "Counter after loop is  " + ChatColor.WHITE
 							+ c);
 					player.sendMessage(ChatColor.GREEN
 							+ "Max before loop is  " + ChatColor.WHITE
@@ -151,7 +150,7 @@ public class shopMenu {
                         is = new ItemStack(Material.getMaterial(cut1), qtyA[i],
                                 (short) id);
                     } else {
-                        is = new ItemStack(Material.getMaterial(itemC),qtyA[i]);
+                        is = new ItemStack(Material.getMaterial(itemC), qtyA[i]);
                     }
 
                     ItemMeta isMeta = is.getItemMeta();
@@ -161,7 +160,7 @@ public class shopMenu {
 
                     ArrayList<String> lf = new ArrayList<String>();
 
-                    for (int i2 = 0; i2 < loreCut.length; i2++){
+                    for (int i2 = 0; i2 < loreCut.length; i2++) {
 //								player.sendMessage(ChatColor.GREEN + "r215" + loreCut[i2]);
                         lf.add(loreCut[i2]);
                     }
@@ -180,7 +179,7 @@ public class shopMenu {
                     }
                     nameC = nameC.replace(' ', '_');
                     commandString = (commandC + " " + uuidNPC + ":" + NPCPass[1] + ":" + subClassC + ":" + priceC + ":" + postTextC + ":" + nameC);
-                    commandHash.put(slotA[i],commandString);
+                    commandHash.put(slotA[i], commandString);
 
                 }
 
@@ -199,9 +198,6 @@ public class shopMenu {
 
 
     }
-
-
-
 
 
 }

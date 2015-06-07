@@ -319,7 +319,7 @@ public class OBAMNPC extends JavaPlugin implements Listener {
             isMeta.setDisplayName("§aBlank");
             air.setItemMeta(isMeta);
 
-            for(int i = 0 ; i < inv.getSize() ; i++) {
+            for (int i = 0; i < inv.getSize(); i++) {
                 if (inv.getItem(i) == null) {
                     iC.put(i, air);
                 } else {
@@ -385,8 +385,6 @@ public class OBAMNPC extends JavaPlugin implements Listener {
             }
             return true;
         }
-
-
 
 
         if (cmd.getName().equalsIgnoreCase("npcsub")) {
